@@ -19,3 +19,9 @@ This project is simply a collection of things I am working through to get a feel
 * Utility functions in getMNIST.py to download and extract the images. The original code came from the tf tutorials
 * Saving and loading model
 * Confusion plots for training and test data
+
+## MNIST_FCNN:
+* Fully convolutional neural network
+* Is intended to be generic to the number of and shapes of layers, but it really finicky
+* Experimented with tensorboard. Started later in the project as a debugging activity so only prints out the net. The way it is done makes the graph really messy. Need to look into how to control the outputs better.
+* I found it really interesting how small changes in the initialization caused major issues in training. I knew that it was an issue, but it was tough to track down.
